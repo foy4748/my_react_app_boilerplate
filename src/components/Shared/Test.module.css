@@ -1,0 +1,11 @@
+.itemContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 0.5rem;
+}
+
+.item {
+  grid-column: span 4;
+  border: 1px solid gray;
+  border-radius: 2rem;
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+
+.container {
+  margin: 0 4rem;
+}
+
+/* Utilities */
+.imgFluid {
+  width: 100%;
+}
+
+.brandLogo {
+  width: 1.5rem;
+}
+
+.userIcon {
+  width: 1.75rem;
+  max-height: 1.75rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.cardImg {
+  max-height: 14.5rem;
+  object-fit: cover;
+}
+
+.sticky {
+  text-align: center;
+  background-color: white;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 0.75rem 0;
+  position: fixed;
+  top: 10rem;
+  left: 0 !important;
+}
+
+.activeClassName {
+  background-color: #00b8cb;
+  color: floralwhite !important;
+  border-radius: 1rem;
+  padding: 0 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .sticky {
+    font-size: 2rem;
+    padding: 2rem 0;
+  }
+}

@@ -10,7 +10,6 @@
 - To request protected API endpoints make sure
     * Headers have "Content-Type":"application/json"
     * Headers have authtoken : authtoken
-    * The requesting url must have ?uid="<uid>" query
 
 ### Includes
 - Firebase Authentication system
@@ -19,5 +18,6 @@
 - Refreshing / Reloading protected route won't break
 - Authentication indicating Navbar
 - Request for JWT token after successful firebase Authentication
-- Login / Register Page will redirect to previous page if user
-  is Authenticated.
+- ❌ Login / Register Page will redirect to previous page if user
+  is Authenticated. [ Gotta fix this ].
+- Some Example / Test CRUD operations at `/test` route.

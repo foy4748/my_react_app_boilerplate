@@ -38,6 +38,7 @@ export default function NavBar({ darkActive, setDarkActive }) {
 
   const handleLogOut = () => {
     logOutHandler().then(() => {
+      window.localStorage.clear("authtoken");
       setActiveUser(null);
     });
   };

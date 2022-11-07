@@ -23,9 +23,11 @@ export default function Login() {
   const navigate = useNavigate();
 
   // Redirecting if User is Authenticated
+  /*
   if (activeUser || activeUser?.uid) {
     navigate(-1);
   }
+	*/
 
   // Event handlers --------------------------
 

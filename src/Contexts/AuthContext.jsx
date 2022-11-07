@@ -77,7 +77,6 @@ export default function AuthContext({ children }) {
 
   // LogOut Handler
   const logOutHandler = () => {
-    window.localStorage.clear("authtoken");
     return signOut(auth);
   };
   //------------------------------
